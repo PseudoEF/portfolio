@@ -150,17 +150,9 @@ requiredLinks.forEach((link) => {
 const projectCardCount = (index.match(/<article\s+class="project\b/g) || []).length;
 check(projectCardCount === 5, `expected 5 project cards, found ${projectCardCount}`);
 
-const screenshotPaths = [
-  "docs/screenshots/gordaya-beauty.webp",
-  "docs/screenshots/homelab-panel.webp",
-  "docs/screenshots/tech-support-crm.webp",
-  "docs/screenshots/support-rage-sim.webp",
-  "docs/screenshots/wireguard-panel.webp",
-];
-
-screenshotPaths.forEach((path) => {
-  check(index.includes(path), `index.html missing screenshot placeholder reference: ${path}`);
-});
+const sketchLabelCount = (index.match(/class="shot-label">Схема интерфейса</g) || []).length;
+check(sketchLabelCount === 5, `expected 5 interface sketch labels, found ${sketchLabelCount}`);
+check(!index.includes("Плейсхолдер"), "index.html still contains placeholder copy");
 
 check(/class="skip-link"/.test(index), "index.html missing skip link");
 check(/<header\b/.test(index), "index.html missing header landmark");
