@@ -17,7 +17,7 @@ Build the portfolio as hand-written static HTML, CSS, and a small amount of vani
 - No framework, package manager, bundler, or build step.
 - No external fonts, CDNs, trackers, or hotlinked images.
 - nginx serves files directly; Cloudflare Tunnel provides the public edge.
-- Screenshots and the Open Graph image are local assets. Project screenshots start as labeled placeholders and are added later.
+- Project cards use lightweight HTML/CSS interface sketches rather than screenshot assets. The Open Graph image is a local asset.
 - The public demos are separate from the real admin panel. The real panel stays LAN-only and is not linked from the public site.
 - CI runs a dependency-free Node validation script instead of installing a browser or HTML toolchain.
 
