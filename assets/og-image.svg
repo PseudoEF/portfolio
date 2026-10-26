@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#090a0c"/>
+  <g opacity=".2" stroke="#f3f0ea" stroke-width="1">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M120 0v630M240 0v630M360 0v630M480 0v630M600 0v630M720 0v630M840 0v630M960 0v630M1080 0v630"/>
+  </g>
+  <rect x="72" y="64" width="72" height="72" rx="18" fill="#e6b45f"/>
+  <path d="M96 116V84h16.8c9 0 15 6 15 14.2s-6 14.2-15 14.2h-8.2V116H96Zm8.6-11.2h7.4c4.1 0 6.5-2.5 6.5-6.6s-2.4-6.6-6.5-6.6h-7.4v13.2Z" fill="#090a0c"/>
+  <text x="72" y="300" fill="#f3f0ea" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="154" font-weight="700" letter-spacing="-8">PSEUDOEF</text>
+  <text x="76" y="372" fill="#e6b45f" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="25" letter-spacing="5">FULL-STACK / SELF-HOSTED</text>
+  <text x="76" y="452" fill="#c9c5bd" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="34">Веб-продукты полного цикла и собственная инфраструктура.</text>
+  <rect x="76" y="504" width="72" height="2" fill="#e6b45f"/>
+  <text x="76" y="552" fill="#9698a0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="24" letter-spacing="3">pseudoef.pp.ua</text>
+  <text x="1124" y="552" fill="#757881" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="20" text-anchor="end" letter-spacing="3">PORTFOLIO</text>
+</svg>

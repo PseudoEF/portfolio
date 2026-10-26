@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#090a0c">
+  <meta name="author" content="PSEUDOEF">
+  <meta name="robots" content="index,follow">
+  <title>PSEUDOEF — Full-stack разработка и self-hosted инфраструктура</title>
+  <meta name="description" content="Портфолио PSEUDOEF: full-stack разработка, клиентские веб-продукты, внутренние инструменты и self-hosted инфраструктура на собственном сервере.">
+  <link rel="canonical" href="https://pseudoef.pp.ua/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="PSEUDOEF">
+  <meta property="og:title" content="PSEUDOEF — Full-stack и self-hosted инфраструктура">
+  <meta property="og:description" content="Клиентские продукты, инженерные демо и self-hosted инфраструктура. Портфолио PSEUDOEF.">
+  <meta property="og:url" content="https://pseudoef.pp.ua/">
+  <meta property="og:image" content="https://pseudoef.pp.ua/assets/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PSEUDOEF — full-stack разработка и self-hosted инфраструктура">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PSEUDOEF — Full-stack и self-hosted инфраструктура">
+  <meta name="twitter:description" content="Клиентские продукты, инженерные демо и self-hosted инфраструктура. Портфолио PSEUDOEF.">
+  <meta name="twitter:image" content="https://pseudoef.pp.ua/assets/og-image.png">
+
+  <script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-external" viewBox="0 0 16 16"><path d="M6 3h7v7M13 3 5 11"/><path d="M11 9v4H3V5h4"/></symbol>
+    <symbol id="icon-github" viewBox="0 0 16 16"><path d="M8 0a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38v-1.34c-2.23.49-2.7-1.08-2.7-1.08-.36-.93-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.81.06 1.23.83 1.23.83.72 1.23 1.89.88 2.35.67.07-.52.28-.88.51-1.08-1.78-.2-3.65-.89-3.65-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.6 7.6 0 0 1 8 3.87c.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.66 3.95.29.25.54.73.54 1.48v2.19c0 .21.15.46.55.38A8 8 0 0 0 8 0Z"/></symbol>
+    <symbol id="icon-copy" viewBox="0 0 16 16"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5"/><path d="M10.5 5.5V4A1.5 1.5 0 0 0 9 2.5H4A1.5 1.5 0 0 0 2.5 4v5A1.5 1.5 0 0 0 4 10.5h1.5"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 16 16"><path d="m3 8.5 3.2 3.2L13 4.5"/></symbol>
+    <symbol id="icon-arrow-up" viewBox="0 0 16 16"><path d="M8 13V3M4 7l4-4 4 4"/></symbol>
+  </svg>
+
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="PSEUDOEF — к началу страницы">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span class="brand-name">PSEUDOEF</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню" data-nav-toggle>
+        <span data-nav-toggle-label>Меню</span>
+        <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация" data-nav>
+        <a href="#projects">Проекты</a>
+        <a href="#case-study">Кейс</a>
+        <a href="#stack">Стек</a>
+        <a href="#practices">Практики</a>
+        <a class="nav-cta" href="#contact">
+          Связаться
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="status-chip"><span class="status-dot" aria-hidden="true"></span>Доступен для проектов</p>
+          <h1 class="hero-title" id="hero-title">PSEUDOEF</h1>
+          <p class="hero-position">Full-stack разработка и self-hosted инфраструктура</p>
+          <p class="hero-lede">Проектирую и запускаю веб-продукты полного цикла — от интерфейса и API до nginx, туннеля и мониторинга. Люблю решения, которые понятно обслуживать и сложно уронить.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#projects">
+              Смотреть проекты
+              <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+            <a class="button button--ghost" href="#contact">Связаться</a>
+          </div>
+          <ul class="hero-meta" aria-label="Принципы работы">
+            <li>Full-cycle</li>
+            <li>Self-hosted</li>
+            <li>Production-first</li>
+          </ul>
+        </div>
+
+        <aside class="hero-system" aria-labelledby="system-title">
+          <div class="system-card">
+            <div class="system-head">
+              <p class="system-title" id="system-title">system / reference</p>
+              <span class="system-badge">self-hosted</span>
+            </div>
+            <ol class="system-list">
+              <li><span class="system-num">01</span><span class="system-key">edge</span><span class="system-val">Cloudflare Tunnel</span></li>
+              <li><span class="system-num">02</span><span class="system-key">proxy</span><span class="system-val">nginx</span></li>
+              <li><span class="system-num">03</span><span class="system-key">runtime</span><span class="system-val">Next.js / Node</span></li>
+              <li><span class="system-num">04</span><span class="system-key">data</span><span class="system-val">SQLite</span></li>
+            </ol>
+            <div class="system-foot">
+              <span>Moto G60 · Termux</span>
+              <span>admin · LAN only</span>
+            </div>
+          </div>
+          <p class="system-caption">Один сервер. Публичные демо отделены от приватного контура.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>01</span> Selected work</p>
+          <div class="section-head-grid">
+            <h2 class="section-title" id="projects-title">Проекты, которые работают</h2>
+            <p class="section-intro">Клиентский продукт, внутренние инструменты и инженерные демо. У каждого — понятная задача, ограничения и результат.</p>
+          </div>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project project--wide reveal" id="project-gordaya" aria-labelledby="project-gordaya-title">
+            <figure class="shot">
+              <div class="shot-canvas">
+                <div class="shot-frame">
+                  <div class="shot-toolbar" aria-hidden="true">
+                    <span class="shot-dots"><i></i><i></i><i></i></span>
+                    <span class="shot-address">gordaya.pp.ua</span>
+                  </div>
+                  <div class="mock mock--gordaya" aria-hidden="true">
+                    <div class="mock-nav">
+                      <span class="mock-brand">GORDAYA</span>
+                      <span class="mock-links">Услуги · Мастера · Контакты</span>
+                      <span class="mock-pill">Записаться</span>
+                    </div>
+                    <div class="mock-split">
+                      <div class="mock-hero-copy">
+                        <span class="mock-kicker">Beauty studio</span>
+                        <p class="mock-display">Красота<br>без спешки</p>
+                        <span class="mock-rule"></span>
+                      </div>
+                      <div class="mock-booking">
+                        <span class="mock-kicker">Ближайшая запись</span>
+                        <div class="mock-slots"><span>10:00</span><span class="is-active">12:30</span><span>15:00</span></div>
+                        <span class="mock-pill mock-pill--full">Выбрать</span>
+                      </div>
+                    </div>
+                    <div class="mock-service-row"><span></span><span></span><span></span></div>
+                  </div>
+                </div>
+              </div>
+              <figcaption class="shot-caption">
+                <span class="shot-label">Плейсхолдер скриншота</span>
+                <code>docs/screenshots/gordaya-beauty.webp</code>
+              </figcaption>
+            </figure>
+
+            <div class="project-body">
+              <div class="project-meta"><span class="project-index">01</span><span class="project-type">Client project</span></div>
+              <h3 id="project-gordaya-title">Gordaya Beauty</h3>
+              <p class="project-subtitle">Онлайн-запись для салона красоты</p>
+              <dl class="project-details">
+                <div><dt>Задача</dt><dd>Салон терял записи в переписках. Нужен был самостоятельный выбор услуги, мастера и времени.</dd></div>
+                <div><dt>Решение</dt><dd>Публичный сайт и защищённая админка: услуги, слоты, заявки и сессии. Next.js, TypeScript, SQLite, iron-session.</dd></div>
+                <div class="project-outcome"><dt>Результат</dt><dd>Клиентка управляет расписанием сама, запись занимает пару минут, данные остаются на своём сервере.</dd></div>
+              </dl>
+              <ul class="tags" aria-label="Стек проекта Gordaya Beauty">
+                <li>Next.js</li><li>TypeScript</li><li>SQLite</li><li>iron-session</li>
+              </ul>
+              <div class="project-links">
+                <a class="project-link" href="https://gordaya.pp.ua/" target="_blank" rel="noopener noreferrer">gordaya.pp.ua <span class="sr-only">(открывается в новой вкладке)</span>
+                  <svg class="icon icon--stroke" aria-hidden="true"><use href="#icon-external"></use></svg>
+                </a>
+                <a class="project-link project-link--gh" href="https://github.com/pseudoef/gordaya-beauty" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon--fill" aria-hidden="true"><use href="#icon-github"></use></svg>
+                  GitHub <span class="sr-only">(открывается в новой вкладке)</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project--narrow reveal" id="project-homelab" aria-labelledby="project-homelab-title">
+            <figure class="shot">
+              <div class="shot-canvas">
+                <div class="shot-frame">
+                  <div class="shot-toolbar" aria-hidden="true">
+                    <span class="shot-dots"><i></i><i></i><i></i></span>
+                    <span class="shot-address">panel.pseudoef.pp.ua</span>
+                  </div>
+                  <div class="mock mock--panel" aria-hidden="true">
+                    <div class="mock-nav">
+                      <span class="mock-brand">homelab / control</span>
+                      <span class="mock-status">LAN only</span>
+                    </div>
+                    <div class="panel-stats">
+                      <div class="panel-stat"><span>CPU</span><strong>34%</strong><i class="meter meter--34"></i></div>
+                      <div class="panel-stat"><span>RAM</span><strong>61%</strong><i class="meter meter--61"></i></div>
+                      <div class="panel-stat"><span>Disk</span><strong>48%</strong><i class="meter meter--48"></i></div>
+                    </div>
+                    <div class="panel-chart">
+                      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="panel-services">
+                      <span>nginx</span><span>site</span><span>panel</span><span>watchdog</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <figcaption class="shot-caption">
+                <span class="shot-label">Плейсхолдер скриншота</span>
+                <code>docs/screenshots/homelab-panel.webp</code>
+              </figcaption>
+            </figure>
+
+            <div class="project-body">
+              <div class="project-meta"><span class="project-index">02</span><span class="project-type">Internal tool</span></div>
+              <h3 id="project-homelab-title">Homelab Control Panel</h3>
+              <p class="project-subtitle">Состояние сервера в одном экране</p>
+              <dl class="project-details">
+                <div><dt>Задача</dt><dd>Нужно видеть состояние сервера и сервисов без SSH и внешних SaaS.</dd></div>
+                <div><dt>Решение</dt><dd>Панель на Node.js без фреймворков: метрики, статусы runit, логи и управление сервисами.</dd></div>
+                <div class="project-outcome"><dt>Результат</dt><dd>Публичное демо показывает синтетические данные, рабочий контур доступен только в LAN.</dd></div>
+              </dl>
+              <ul class="tags" aria-label="Стек проекта Homelab Control Panel">
+                <li>Node.js stdlib</li><li>runit</li><li>metrics</li><li>LAN-only</li>
+              </ul>
+              <div class="project-links">
+                <a class="project-link" href="https://panel.pseudoef.pp.ua/" target="_blank" rel="noopener noreferrer">panel.pseudoef.pp.ua <span class="sr-only">(открывается в новой вкладке)</span>
+                  <svg class="icon icon--stroke" aria-hidden="true"><use href="#icon-external"></use></svg>
+                </a>
+                <a class="project-link project-link--gh" href="https://github.com/pseudoef/homelab-panel" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon--fill" aria-hidden="true"><use href="#icon-github"></use></svg>
+                  GitHub <span class="sr-only">(открывается в новой вкладке)</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project--narrow reveal" id="project-crm" aria-labelledby="project-crm-title">
+            <figure class="shot">
+              <div class="shot-canvas">
+                <div class="shot-frame">
+                  <div class="shot-toolbar" aria-hidden="true">
+                    <span class="shot-dots"><i></i><i></i><i></i></span>
+                    <span class="shot-address">crm.pseudoef.pp.ua</span>
+                  </div>
+                  <div class="mock mock--crm" aria-hidden="true">
+                    <div class="mock-nav">
+                      <span class="mock-brand">support / crm</span>
+                      <span class="mock-status">IndexedDB</span>
+                    </div>
+                    <div class="crm-layout">
+                      <div class="crm-side">
+                        <span class="is-active">Все тикеты</span>
+                        <span>Мои</span>
+                        <span>Ожидают</span>
+                        <span>Закрытые</span>
+                      </div>
+                      <div class="crm-main">
+                        <div class="crm-row"><span>#1042</span><span>Оплата не проходит</span><span class="status">Открыт</span></div>
+                        <div class="crm-row"><span>#1041</span><span>Не приходит письмо</span><span class="status">В работе</span></div>
+                        <div class="crm-row"><span>#1038</span><span>Доступ к отчёту</span><span class="status">Решён</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <figcaption class="shot-caption">
+                <span class="shot-label">Плейсхолдер скриншота</span>
+                <code>docs/screenshots/tech-support-crm.webp</code>
+              </figcaption>
+            </figure>
+
+            <div class="project-body">
+              <div class="project-meta"><span class="project-index">03</span><span class="project-type">Demo</span></div>
+              <h3 id="project-crm-title">Tech Support CRM</h3>
+              <p class="project-subtitle">Тикеты, статусы и фильтры без бэкенда</p>
+              <dl class="project-details">
+                <div><dt>Задача</dt><dd>Хаотичные обращения сложно приоритизировать. Нужен воспроизводимый CRM-сценарий.</dd></div>
+                <div><dt>Решение</dt><dd>SPA на React и TypeScript с локальной IndexedDB: тикеты, фильтры, статусы и заметки.</dd></div>
+                <div class="project-outcome"><dt>Результат</dt><dd>Данные не покидают браузер, а демо запускается без регистрации и серверной части.</dd></div>
+              </dl>
+              <ul class="tags" aria-label="Стек проекта Tech Support CRM">
+                <li>React</li><li>TypeScript</li><li>IndexedDB</li><li>SPA</li>
+              </ul>
+              <div class="project-links">
+                <a class="project-link" href="https://crm.pseudoef.pp.ua/" target="_blank" rel="noopener noreferrer">crm.pseudoef.pp.ua <span class="sr-only">(открывается в новой вкладке)</span>
+                  <svg class="icon icon--stroke" aria-hidden="true"><use href="#icon-external"></use></svg>
+                </a>
+                <a class="project-link project-link--gh" href="https://github.com/pseudoef/tech-support-crm" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon--fill" aria-hidden="true"><use href="#icon-github"></use></svg>
+                  GitHub <span class="sr-only">(открывается в новой вкладке)</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project--wide reveal" id="project-sim" aria-labelledby="project-sim-title">
+            <figure class="shot">
+              <div class="shot-canvas">
+                <div class="shot-frame">
+                  <div class="shot-toolbar" aria-hidden="true">
+                    <span class="shot-dots"><i></i><i></i><i></i></span>
+                    <span class="shot-address">sim.pseudoef.pp.ua</span>
+                  </div>
+                  <div class="mock mock--sim" aria-hidden="true">
+                    <div class="mock-nav">
+                      <span class="mock-brand">support / rage sim</span>
+                      <span class="mock-status">local · scripted</span>
+                    </div>
+                    <div class="sim-chat">
+                      <div class="sim-bubble">Почему снова не работает?</div>
+                      <div class="sim-bubble sim-bubble--right">Давайте проверим. На каком шаге появилась ошибка?</div>
+                      <div class="sim-bubble">Это уже третий раз за день.</div>
+                      <div class="sim-choices"><span>Сохранить спокойствие</span><span>Уточнить детали</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <figcaption class="shot-caption">
+                <span class="shot-label">Плейсхолдер скриншота</span>
+                <code>docs/screenshots/support-rage-sim.webp</code>
+              </figcaption>
+            </figure>
+
+            <div class="project-body">
+              <div class="project-meta"><span class="project-index">04</span><span class="project-type">Demo</span></div>
+              <h3 id="project-sim-title">Support Rage Sim</h3>
+              <p class="project-subtitle">Тренажёр конфликтных диалогов</p>
+              <dl class="project-details">
+                <div><dt>Задача</dt><dd>Тренировать выдержку поддержки сложно без реальных клиентов и риска для продукта.</dd></div>
+                <div><dt>Решение</dt><dd>Python-сценарии с локальным Ollama: конфликтные диалоги, ветвление и оценка ответов.</dd></div>
+                <div class="project-outcome"><dt>Результат</dt><dd>Сценарии воспроизводимы, а публичная версия работает на заранее записанных ответах.</dd></div>
+              </dl>
+              <ul class="tags" aria-label="Стек проекта Support Rage Sim">
+                <li>Python</li><li>Ollama</li><li>local-first</li><li>scripted demo</li>
+              </ul>
+              <div class="project-links">
+                <a class="project-link" href="https://sim.pseudoef.pp.ua/" target="_blank" rel="noopener noreferrer">sim.pseudoef.pp.ua <span class="sr-only">(открывается в новой вкладке)</span>
+                  <svg class="icon icon--stroke" aria-hidden="true"><use href="#icon-external"></use></svg>
+                </a>
+                <a class="project-link project-link--gh" href="https://github.com/pseudoef/support-rage-sim" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon--fill" aria-hidden="true"><use href="#icon-github"></use></svg>
+                  GitHub <span class="sr-only">(открывается в новой вкладке)</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project--compact reveal" id="project-wireguard" aria-labelledby="project-wireguard-title">
+            <figure class="shot">
+              <div class="shot-canvas">
+                <div class="shot-frame">
+                  <div class="shot-toolbar" aria-hidden="true">
+                    <span class="shot-dots"><i></i><i></i><i></i></span>
+                    <span class="shot-address">wireguard / setup</span>
+                  </div>
+                  <div class="mock mock--wg" aria-hidden="true">
+                    <div class="mock-nav">
+                      <span class="mock-brand">wg-panel</span>
+                      <span class="mock-status">Windows</span>
+                    </div>
+                    <div class="wg-layout">
+                      <div class="wg-code">
+                        <span>interface: wg0</span>
+                        <span>listen: 51820</span>
+                        <span>peer: client-01</span>
+                        <span class="is-muted">key: ••••••••••••</span>
+                      </div>
+                      <div class="wg-steps">
+                        <span class="is-done">01 keys</span>
+                        <span class="is-done">02 config</span>
+                        <span>03 install</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <figcaption class="shot-caption">
+                <span class="shot-label">Плейсхолдер скриншота</span>
+                <code>docs/screenshots/wireguard-panel.webp</code>
+              </figcaption>
+            </figure>
+
+            <div class="project-body">
+              <div class="project-meta"><span class="project-index">05</span><span class="project-type">Tooling</span></div>
+              <h3 id="project-wireguard-title">WireGuard Panel</h3>
+              <p class="project-subtitle">VPN-конфигурация без ручного CLI</p>
+              <dl class="project-details">
+                <div><dt>Задача</dt><dd>Настройка WireGuard на Windows через командную строку медленная и легко ошибиться.</dd></div>
+                <div><dt>Решение</dt><dd>Python-панель и Windows-установщик: ключи, конфиги, управление пирами и проверки.</dd></div>
+                <div class="project-outcome"><dt>Результат</dt><dd>Развёртывание сводится к нескольким шагам, а ключи не попадают в репозиторий.</dd></div>
+              </dl>
+              <ul class="tags" aria-label="Стек проекта WireGuard Panel">
+                <li>Python</li><li>Windows installer</li><li>WireGuard</li>
+              </ul>
+              <div class="project-links">
+                <span class="project-link project-link--disabled">Публичного демо нет — инструмент локальный</span>
+                <a class="project-link project-link--gh" href="https://github.com/pseudoef/wireguard-panel" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon--fill" aria-hidden="true"><use href="#icon-github"></use></svg>
+                  GitHub <span class="sr-only">(открывается в новой вкладке)</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="section-note">Больше экспериментов и исходников — <a href="https://github.com/pseudoef" target="_blank" rel="noopener noreferrer">на GitHub <span class="sr-only">(открывается в новой вкладке)</span></a>.</p>
+      </div>
+    </section>
+    <section class="section section--band" id="case-study" aria-labelledby="case-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>02</span> Case study</p>
+          <div class="section-head-grid">
+            <h2 class="section-title" id="case-title">Домашний сервер на Android</h2>
+            <p class="section-intro">Production-привычки на потребительском железе: один Moto G60, Termux, runit, nginx и Cloudflare Tunnel.</p>
+          </div>
+        </header>
+
+        <div class="case-layout">
+          <div class="case-copy reveal">
+            <p class="case-lede">Этот сайт, клиентский проект и несколько демо живут на телефоне. Не потому что дешевле, а потому что ограничения быстро показывают слабые места архитектуры.</p>
+
+            <dl class="case-facts">
+              <div><dt>Устройство</dt><dd>Moto G60</dd></div>
+              <div><dt>Среда</dt><dd>Termux + runit</dd></div>
+              <div><dt>Вход</dt><dd>Cloudflare Tunnel</dd></div>
+              <div><dt>Данные</dt><dd>SQLite</dd></div>
+            </dl>
+
+            <h3>Что оказалось сложным</h3>
+            <ol class="case-list">
+              <li><strong>Лимиты процессов.</strong> Android агрессивно убивает фоновую работу. runit перезапускает сервисы, а watchdog проверяет доступность и восстанавливает контур после сбоя.</li>
+              <li><strong>Батарея и нагрев.</strong> Постоянная нагрузка требует контроля питания и температуры. Лишние процессы и частый polling пришлось убрать.</li>
+              <li><strong>Восстановление.</strong> Health checks, автоперезапуск и понятные логи важнее ручного SSH-ритуала после каждого падения.</li>
+            </ol>
+          </div>
+
+          <figure class="arch reveal" aria-labelledby="arch-caption">
+            <div class="arch-head"><span>Architecture</span><span>Moto G60 / Termux</span></div>
+            <div class="arch-board">
+              <div class="arch-flow">
+                <div class="arch-node">
+                  <span class="arch-step">01</span>
+                  <span class="arch-node-copy"><b>Браузер</b><small>HTTPS-запрос</small></span>
+                </div>
+                <div class="arch-connector" aria-hidden="true"></div>
+                <div class="arch-node">
+                  <span class="arch-step">02</span>
+                  <span class="arch-node-copy"><b>Cloudflare Tunnel</b><small>без открытых входящих портов</small></span>
+                </div>
+                <div class="arch-connector" aria-hidden="true"></div>
+                <div class="arch-device">
+                  <p class="arch-device-label">Moto G60 · Termux</p>
+                  <div class="arch-node">
+                    <span class="arch-step">03</span>
+                    <span class="arch-node-copy"><b>nginx</b><small>TLS · routing · rate limits</small></span>
+                  </div>
+                  <div class="arch-connector" aria-hidden="true"></div>
+                  <div class="arch-node">
+                    <span class="arch-step">04</span>
+                    <span class="arch-node-copy"><b>Next.js / Node</b><small>сайт, демо и API</small></span>
+                  </div>
+                  <div class="arch-connector" aria-hidden="true"></div>
+                  <div class="arch-node">
+                    <span class="arch-step">05</span>
+                    <span class="arch-node-copy"><b>SQLite</b><small>изолированные базы для демо</small></span>
+                  </div>
+                </div>
+              </div>
+
+              <aside class="arch-control" aria-label="Control plane">
+                <p class="arch-control-label">Control plane</p>
+                <div class="arch-node"><span class="arch-node-copy"><b>runit</b><small>supervision</small></span></div>
+                <div class="arch-node"><span class="arch-node-copy"><b>watchdog</b><small>health checks</small></span></div>
+                <div class="arch-node arch-node--private"><span class="arch-node-copy"><b>LAN-only admin</b><small>без публичного доступа</small></span></div>
+              </aside>
+            </div>
+            <figcaption class="arch-caption" id="arch-caption">Публичный трафик приходит только через Cloudflare Tunnel. Админ-панель не выходит за пределы LAN, демо используют синтетические данные и отдельные базы.</figcaption>
+          </figure>
+        </div>
+
+        <div class="case-notes">
+          <div class="case-note reveal">
+            <p class="kicker">Reliability &amp; security</p>
+            <h3>Границы, которые не размываются</h3>
+            <ul>
+              <li>Реальная админ-панель доступна только из локальной сети.</li>
+              <li>Публичные демо работают на синтетических данных.</li>
+              <li>У демо отдельная база, а не копия рабочей.</li>
+              <li>Формы и демо-эндпоинты защищены rate limits.</li>
+              <li>Секреты хранятся вне репозитория; входящие порты не открыты.</li>
+            </ul>
+          </div>
+
+          <div class="case-note reveal">
+            <p class="kicker">What I learned</p>
+            <h3>Надёжность — это поведение при сбое</h3>
+            <ul>
+              <li>Сначала границы и режимы отказа, потом оптимизация.</li>
+              <li>Падение процесса — норма; восстановление должно быть частью дизайна.</li>
+              <li>Наблюдаемость дешевле, чем догадки.</li>
+              <li>Публичное демо не должно иметь доступ к реальным данным.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>03</span> Stack</p>
+          <div class="section-head-grid">
+            <h2 class="section-title" id="stack-title">Инструменты под задачу</h2>
+            <p class="section-intro">Без процентов и рейтингов. Только то, что использовал в проектах выше и в ежедневной работе.</p>
+          </div>
+        </header>
+
+        <div class="stack-grid reveal">
+          <div class="stack-group">
+            <div class="stack-head"><span>01</span><h3>Frontend</h3></div>
+            <ul>
+              <li>TypeScript, React, Next.js</li>
+              <li>Semantic HTML и современный CSS</li>
+              <li>Адаптивность и доступность</li>
+              <li>IndexedDB и offline-демо</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <div class="stack-head"><span>02</span><h3>Backend</h3></div>
+            <ul>
+              <li>Node.js, Python</li>
+              <li>REST и типизированные контракты</li>
+              <li>iron-session и auth-сценарии</li>
+              <li>Валидация и rate limits</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <div class="stack-head"><span>03</span><h3>Data</h3></div>
+            <ul>
+              <li>SQLite и схема данных</li>
+              <li>IndexedDB для локальных демо</li>
+              <li>Изоляция данных между контурами</li>
+              <li>Простые и проверяемые запросы</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <div class="stack-head"><span>04</span><h3>Infra / Ops</h3></div>
+            <ul>
+              <li>Linux, Termux, runit</li>
+              <li>nginx и Cloudflare Tunnel</li>
+              <li>WireGuard и Windows-установщики</li>
+              <li>Метрики, логи, watchdog</li>
+              <li>Git и GitHub Actions</li>
+            </ul>
+          </div>
+        </div>
+        <p class="stack-note">Выбор инструмента начинается с ограничений, а не с модности стека.</p>
+      </div>
+    </section>
+    <section class="section section--band" id="practices" aria-labelledby="practices-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker"><span>04</span> Engineering practices</p>
+          <div class="section-head-grid">
+            <h2 class="section-title" id="practices-title">Как я строю и проверяю</h2>
+            <p class="section-intro">Практики, которые уменьшают сюрпризы в продакшене и делают код понятным следующему человеку.</p>
+          </div>
+        </header>
+
+        <div class="practice-grid">
+          <article class="practice reveal">
+            <span class="practice-num">01</span>
+            <h3>Тесты</h3>
+            <p>Юнит- и интеграционные проверки критичных сценариев. Для демо — воспроизводимые данные и понятный сценарий запуска.</p>
+          </article>
+          <article class="practice reveal">
+            <span class="practice-num">02</span>
+            <h3>CI</h3>
+            <p>GitHub Actions проверяет синтаксис, локальные ссылки и обязательные метаданные до попадания изменений в основную ветку.</p>
+          </article>
+          <article class="practice reveal">
+            <span class="practice-num">03</span>
+            <h3>ADRs</h3>
+            <p>Решения с контекстом и последствиями фиксируются в репозитории, а не остаются в переписке.</p>
+          </article>
+          <article class="practice reveal">
+            <span class="practice-num">04</span>
+            <h3>Typed contracts</h3>
+            <p>TypeScript на границах модулей и явные схемы данных. Ошибка ловится там, где появилась, а не в проде.</p>
+          </article>
+          <article class="practice reveal">
+            <span class="practice-num">05</span>
+            <h3>Accessibility</h3>
+            <p>Клавиатурная навигация, видимый фокус, контраст и prefers-reduced-motion — часть базового качества, а не отдельная задача.</p>
+          </article>
+          <article class="practice reveal">
+            <span class="practice-num">06</span>
+            <h3>Security</h3>
+            <p>Минимальные привилегии, LAN-only админка, изолированные демо-базы, rate limits и никаких секретов в репозитории.</p>
+          </article>
+          <article class="practice reveal">
+            <span class="practice-num">07</span>
+            <h3>Observability</h3>
+            <p>Метрики, структурные логи, health checks и watchdog. Сначала вижу, что происходит, потом делаю выводы.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="contact-panel reveal">
+          <div class="contact-copy">
+            <p class="kicker"><span>05</span> Contact</p>
+            <h2 id="contact-title">Есть задача — давайте обсудим.</h2>
+            <p>Открыт к клиентским проектам и постоянной роли. Расскажите о задаче, ограничениях и сроках — предложу реалистичный план.</p>
+            <a class="button button--primary" href="mailto:hello@pseudoef.pp.ua">
+              Написать на email
+              <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </div>
+
+          <div class="contact-list">
+            <div class="contact-row">
+              <div class="contact-info">
+                <span class="contact-label">Email</span>
+                <a class="contact-value" id="contact-email" href="mailto:hello@pseudoef.pp.ua">hello@pseudoef.pp.ua</a>
+              </div>
+              <button class="copy-button" type="button" data-copy="hello@pseudoef.pp.ua" data-copy-name="Email" data-copy-target="contact-email" aria-label="Скопировать email hello@pseudoef.pp.ua">
+                <svg class="icon icon--stroke copy-icon" aria-hidden="true"><use href="#icon-copy"></use></svg>
+                <svg class="icon icon--stroke copy-check" aria-hidden="true"><use href="#icon-check"></use></svg>
+                <span data-copy-label>Копировать</span>
+              </button>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-info">
+                <span class="contact-label">Telegram</span>
+                <a class="contact-value" id="contact-telegram" href="https://t.me/pseudoef" target="_blank" rel="noopener noreferrer">@pseudoef</a>
+              </div>
+              <button class="copy-button" type="button" data-copy="@pseudoef" data-copy-name="Telegram" data-copy-target="contact-telegram" aria-label="Скопировать Telegram @pseudoef">
+                <svg class="icon icon--stroke copy-icon" aria-hidden="true"><use href="#icon-copy"></use></svg>
+                <svg class="icon icon--stroke copy-check" aria-hidden="true"><use href="#icon-check"></use></svg>
+                <span data-copy-label>Копировать</span>
+              </button>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-info">
+                <span class="contact-label">GitHub</span>
+                <a class="contact-value" id="contact-github" href="https://github.com/pseudoef" target="_blank" rel="noopener noreferrer">github.com/pseudoef</a>
+              </div>
+              <button class="copy-button" type="button" data-copy="https://github.com/pseudoef" data-copy-name="GitHub" data-copy-target="contact-github" aria-label="Скопировать ссылку на GitHub">
+                <svg class="icon icon--stroke copy-icon" aria-hidden="true"><use href="#icon-copy"></use></svg>
+                <svg class="icon icon--stroke copy-check" aria-hidden="true"><use href="#icon-check"></use></svg>
+                <span data-copy-label>Копировать</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="PSEUDOEF — к началу страницы">
+            <span class="brand-mark" aria-hidden="true">P</span>
+            <span class="brand-name">PSEUDOEF</span>
+          </a>
+          <p>Full-stack разработка и self-hosted инфраструктура.</p>
+          <p class="footer-tagline">Built on a phone. Run like production.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Навигация в подвале">
+          <a href="#projects">Проекты</a>
+          <a href="#case-study">Кейс</a>
+          <a href="#stack">Стек</a>
+          <a href="#practices">Практики</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> PSEUDOEF</p>
+        <p class="footer-made">сделано и захостено на собственном сервере</p>
+        <a class="footer-top-link" href="#top">Наверх
+          <svg class="icon icon--stroke" aria-hidden="true"><use href="#icon-arrow-up"></use></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copy-status" role="status" aria-live="polite" data-copy-status></div>
+</body>
+</html>
