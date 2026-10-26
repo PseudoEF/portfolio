@@ -104,7 +104,7 @@ The page has no inline scripts or inline styles, so the CSP can stay strict. If 
 All personal data and links are plain HTML. Search for the placeholders and replace them in one pass:
 
 ```bash
-rg -n "PSEUDOEF|hello@pseudoef|@pseudoef|github.com/pseudoef|gordaya\.pp\.ua|panel\.pseudoef|crm\.pseudoef|sim\.pseudoef" .
+rg -n "PSEUDOEF|sano.ivanovskiy@gmail.com|@John_doe1488|github.com/pseudoef|gordaya\.pp\.ua|panel\.pseudoef|crm\.pseudoef|sim\.pseudoef" .
 ```
 
 Update these locations when changing the domain:
@@ -115,7 +115,7 @@ Update these locations when changing the domain:
 - The email address in `mailto:` links and copy buttons.
 - The footer phrase and availability text if they stop being accurate.
 
-GitHub repository URLs use `https://github.com/pseudoef/<repo>` placeholders. The current slugs are `gordaya-beauty`, `homelab-panel`, `tech-support-crm`, `support-rage-sim`, and `wireguard-panel`; adjust them to the real repository names. The WireGuard card intentionally has no public live demo because it is a local Windows tool.
+GitHub repository URLs use `https://github.com/pseudoef/<repo>`. The live slugs are `gordaya-beauty`, `homelab-panel`, `tech-support-crm`, `support-rage-sim`, and `wireguard-panel`; adjust them to the real repository names. The WireGuard card intentionally has no public live demo because it is a local Windows tool.
 
 ### Screenshots
 

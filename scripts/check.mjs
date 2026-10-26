@@ -138,8 +138,8 @@ const requiredLinks = [
   "https://github.com/pseudoef/tech-support-crm",
   "https://github.com/pseudoef/support-rage-sim",
   "https://github.com/pseudoef/wireguard-panel",
-  "mailto:hello@pseudoef.pp.ua",
-  "https://t.me/pseudoef",
+  "mailto:sano.ivanovskiy@gmail.com",
+  "https://t.me/John_doe1488",
   "https://github.com/pseudoef",
 ];
 
